@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    height: 70px; 
+    width: 100%; 
+    background-color: white;
+}
+
+.carousel-item img {
+    max-height: 700px; /* sets the maximum height of the images in the carousel */
+    max-width: 100%; /* sets the maximum width of the images to take up the full width of their parent container */
+    object-fit: fill; /* keeps the aspect ratio of the images while fitting it within the specified dimensions */
+}
+
+.center-caption{
+    top:30%;
+    height: auto;
+    max-height: 120px;
+}
+
+.big-text{
+    color: gray;
+    font-size: 6pt;
+    font-weight: 1000;
+}
+
+
+
+.logo-row {
+    
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* center horizontal */
+  align-items: center; /* center vertical */
+  }
+  
+  .logo {
+    width: 100px; /* sets the width of the logos */
+    height: 60px; /* keeps the aspect ratio of the logos */
+  }
+
+.circular-border {
+    border-radius: 5%; /* makes the border circular */
+    overflow: hidden; /* clips the image inside the circular border */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.big-text-black{
+    color:black;
+    font-size: 20pt;
+    font-weight: 1000;
+}
+
+.card-container-1{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .card-1{
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .card-icon {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+  }
+  
+  .card-icon i {
+    font-size: 50px;
+    color: gray;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card-icon-2 i {
+    font-size: 20px;
+    color: gray;
+  }
+
+.spacer{
+    height: 5px;
+    background-color: rgba(252, 236, 205, 0.879);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.three-box{
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+.center-dist{
+    align-self: center;
+    color: black;
+}
+
+
+
+.big-text{
+    align-self: center;
+    font-size: 26pt;
+}
+
+i{
+    border-color: black;
+    color: black;
+}
+a{
+    font-size: small;
+}
+
+
+/* pilihan asset */
+.card-2{
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+        .card-2 img{
+             border-radius: 10%;
+            }
+
+            .myButton {
+                background-color:rgb(251, 189, 75);
+                border: 1px solid rgb(251, 189, 75);
+                border-radius: 5px;
+                padding: 5px 10px;
+                color: black;
+                
+              }
+              
+              .pagination a {
+                color:gray;
+              }
+              
+              @media screen and (max-width: 1000px) {
+                #content,
+                aside {
+                  width: 100%;
+                  padding: 0;
+                }
+                .center-caption{
+                  top: 5%;
+              }
+          
+              .big-text{
+                  font-size: 12pt;
+              }
+          
+              .center-dist{
+                  text-align: center;
+              }
+              }
+/* 
+@media(max-widht: 300px){
+    .center-caption{
+        top: 5%;
+    }
+
+    .big-text{
+        font-size: 12pt;
+    }
+
+    .center-dist{
+        text-align: center;
+    }
+} */
