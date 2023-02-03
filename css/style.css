@@ -173,7 +173,7 @@ a{
                 color:gray;
               }
               
-              @media screen and (max-width: 1000px) {
+              @media screen and (max-width: 767px) {
                 #content,
                 aside {
                   width: 100%;
@@ -184,7 +184,7 @@ a{
               }
           
               .big-text{
-                  font-size: 12pt;
+                  font-size: auto;
               }
           
               .center-dist{
